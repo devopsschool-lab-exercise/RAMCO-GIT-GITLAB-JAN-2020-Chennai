@@ -114,8 +114,85 @@ FOR CHAT and TROUBELSHOOTING
 -----------------------------------
 https://tlk.io/devopsschool
 
+========================================================
+Basic workflow with git?
+
+Step 1 - Create a repo
+$ git init
+
+Step 2 - Have a Source Code
+
+Step 3 - Add a Source Code to Git***[Moving a file to staging]
+$ git add file1.txt
+
+### ONE TIME
+git config user.name "Rajesh Kumar"
+git config user.email "devops@rajeshkumar.xyz"
+git config --list
+
+Step 4 - Commit a Source code to git [Moving a file from staging to repo]
+git commit -m"This is my first commit"
+
+Step 5 - View a Source Code? See a Commit
+git log
+
+Step 6 - What was committed?
+git show 6b461805a37601b1c464dce36d1b55043814fbf3
+
+COMMANDS
+ 507  cd /e
+  508  mkdir ramco
+  509  cd ramco/
+  510  mkdir repo1
+  511  cd repo1/
+  512  clear
+  513  pwd
+  514  git init
+  515  ls
+  516  ls -la
+  517  start .
+  518  touch file2.txt
+  519  cls
+  520  clear
+  521  git add file1.txt
+  522  git config user.name "Rajesh Kumar"
+  523  git config user.email "devops@rajeshkumar.xyz"
+  524  git config --list
+  525  cleas
+  526  clear
+  527  git commit -m"This is my first commit"
+  528  git log
+  529  git show 6b461805a37601b1c464dce36d1b55043814fbf3
+  530  clear
+  531  git log
+  532  git show 6b461805a37601b1c464dce36d1b55043814fbf3
+  533  git log
+  534  git show 6b461805a37601b1c464dce36d1b55043814fbf3
+  535  cls
+  536  clear
+  537  history
 
 
+$ git log
+commit 6b461805a37601b1c464dce36d1b55043814fbf3 (HEAD -> master)
+Author: Rajesh Kumar <devops@rajeshkumar.xyz>
+Date:   Tue Jan 7 14:03:10 2020 +0530
+
+    This is my first commit
+
+  538  cls
+  539  clear
+  540  git log
+  541  clear
+  542  git status
+  543  ls
+  544  git add .
+  545  git status
+  546  git commit -m"adding all" file2.txt
+  547  git status
+  548  git commit -m"adding all"
+  549  git status
+  550  history
 
 
 
