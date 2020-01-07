@@ -1,0 +1,150 @@
+CI Process
+Release Process
+Git
+Gitlab
+SVN to Git
+==================================================
+DevOps
+        Immediate Release 
+        Cost Reduction
+        Improve Quality
+        https://www.youtube.com/watch?v=-VaVmb_UOC8
+
+What is SDLC Cycle?
+Mgr - RamcoX
+Product - ProdX
+------------------------
+Planning ->  Architect -> JIRA - Sharepoint
+Dev - 10 FEA - 10 Dev
+        Code Integ
+                    RCS -> CVS -> SVN -> Git
+        Code Ana
+                Static - SqlenLite - SonarQube 
+                Peer - GITLAB, GERRIT
+
+        Build Mgmt - Maven - msbuild
+
+        UNit TESTING - NUNIT - JUNIT
+
+        pACkAGE - 
+                    app
+                    sys
+
+        pACK MGMT - NEXUS - ARTIFACTORY
+        https://www.devopsschool.com/videos/19/nexus-essential-tutorial-december-2019-by-devopsschool/
+
+        Dep2QA  
+                ProdX15.0 - 100 BOXES
+        50 - L - 50 W
+        50 IIS  - 50 NG
+        25 TOM - 25 JBOS - 25 WL - 25 WS
+        25 MYSQL - 25 MSSQL - 25 ORACLE - 25 PS
+        100 DIFF..
+        =================
+        1 Dep - 9 mins...
+        100 Dep - 9 mins
+
+        AT
+
+        Code Coverage
+        =================================================================================
+        Plan-> Code-> Analysis->Build->UT ->Pack->Archive->Dep2Qa->AT-CC
+        =====================================================================
+        jira -> git -> Sonar -> Maven -> Junit -> Jar -> Nexus-> Ansible ->Selenium -> Jacoco
+        ====================================================================================
+                                    JENKINS - GITLAB CI 
+
+What is Git?
+        Open Source tool
+        Managing Source Code
+        Code Integration tool.
+        Version Control tool.
+                    WHO
+                    What
+                    When
+                    Why 
+                    Where
+        Written by 
+                    Linus Tovarld
+        DISTRIBUTED
+        For COde only
+==============================
+Why git?
+        Version Control tool.
+                    WHO
+                    What
+                    When
+                    Why 
+                    Where
+
+Other tools?
+                    RCS -> CVS -> SVN -> Git
+                    Vss - cLEARCASE- P4 - MERCURY - tfs
+
+DISTRIBUTED Vs Server-Client
+==================================
+How to Install git?
+        Command
+            WINDOWS
+                git-scm.com - EXE - 
+                    git bash
+                    git cmd
+                    gitk
+        LINUX
+                UB - sudo apt-get install git
+                RHEL - sudo yum install git
+        MAC
+
+        GUI 
+            SourceTree - POWER
+            TortoiseGit
+            Git with Eclipse
+            Git with Vs
+            Git with Jetbrains
+==============================================
+RAMCO-GIT-GITLAB-JAN-2020-Chennai
+
+Github.com
+
+FILL THIS FORM for Notes
+---------------------------------
+http://bit.ly/2N2Keni
+
+FOR CHAT and TROUBELSHOOTING
+-----------------------------------
+https://tlk.io/devopsschool
+
+
+bharathi_gitlab
+kevinsubhash
+bharathi.gitlab
+garunjp
+ShaliniIIITT
+Narendran-MR
+msiva-techie
+theFutureSage
+sudhravi
+Manoj-s0457
+sivaramselva
+VaidyaRamalingam
+MitraMarada
+Bharathi8807
+sivaramselva
+Narendran-MR
+Ramsingh321
+dhonishivaleela
+kevinsubhash
+harishree15
+ganeshprabhu188
+LavanyaRamesh
+bharathi.git
+Keerthana321
+
+
+
+
+
+
+
+
+
