@@ -194,8 +194,127 @@ Date:   Tue Jan 7 14:03:10 2020 +0530
   549  git status
   550  history
 
+=================================================================
+=================================================================
+Questions - 
+==============================
+How to modify a file?
+How to rename a file?
+How to add all files?
+How to create a dir?
+How to commit a selective file?
+WHat is HEAD?
+    HEAD IS a tip curr Branch
+How to delete a file?
+How to go back in the history n see non deleted a file?
+How to come back?
+
+ 551  ckear
+  552  clear
+  553  cler
+  554  clear
+  555  ls
+  556  clear
+  557  git status
+  558  ls
+  559  vi file1.txt
+  560  git status
+  561  git add .
+  562  git status
+  563  git commit -m"modifying a file"
+  564  clear
+  565  git log
+  566  clear
+  567  ls
+  568  start .
+  569  clear
+  570  ls
+  571  git status
+  572  git mv file1.txt file11.txt
+  573  git status
+  574  start .
+  575  start .
+  576  git status
+  577  git add ,
+  578  git add .
+  579  git status
+  580  clear
+  581  git commit -m"adding"
+  582  ls
+  583  clear
+  584  mkdir src
+  585  git status
+  586  ls
+  587  touch src/rajesh1.txt
+  588  git status
+  589  git add
+  590  git add .
+  591  clear
+  592  git status
+  593  git commit -m"adding dir"
+  594  git status
+  595  clear
+  596  ls
+  597  git log
+  598  git log HEAD
+  599  clear
+  600  git log HEAD~1
+  601  git log HEAD
+  602  git help log
+  603  git log --oneline
+  604  clear
+  605  git log --oneline
+  606  git log HEAD
+  607  git log --oneline
+  608  clear
+  609  git log --oneline
+  610  git log HEAD~1
+  611  git log HEAD~2
+  612  clear
+  613  ls
+  614  cler
+  615  clear
+  616  ls
+  617  git rm file33.txt
+  618  git status
+  619  ls
+  620  git commit -m"delete"
+  621  clear
+  622  ls
+  623  ls
+  624  git status
+  625  git log --oneline
+  626  git checkout 4e10169
+  627  clear
+  628  ls
+  629  git log HEAD
+  630  git checkout master
+  631  clear
+  632  git log --oneline
+  633  ls
+  634  history
+
+================================
+
+
+How to see diff between 2commit or last modification?
+How to delete a file/dir?
+How to remove from STAGING?
+Branching and merging
+Tagging
+How to change a file name?
+How to ignore files to get commited?
+Baselne
+How a resolve code conflict?
+How to modify a file ?
+
+How to revert back
 
 
 
+Can we create repo for a team?
+
+
+Working with Remote repo
 
 
