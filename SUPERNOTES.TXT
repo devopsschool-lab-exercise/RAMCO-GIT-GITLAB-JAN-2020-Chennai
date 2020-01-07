@@ -295,6 +295,52 @@ How to come back?
   634  history
 
 ================================
+ 634  history
+  635  clear
+  636  ls
+  637  ls -la
+  638  clear
+  639  ls
+  640  ls -la
+  641  clear
+  642  ls
+  643  git push https://github.com/devopsschool-lab-exercise/ramco-test.git master'
+  644  git push https://github.com/devopsschool-lab-exercise/ramco-test.git master
+  645  clear
+  646  git push https://github.com/devopsschool-lab-exercise/ramco-test.git master
+  647  git push http://alpha.ramco.com/gitlab/kevin/ramcotest.git master
+  648  git push http://alpha.ramco.com/gitlab/kevin/ramcotest.git master
+  649  cd ..
+  650  start .
+  651  clear
+  652  http://alpha.ramco.com/gitlab/kevin/ramcotest.git
+  653  git clone http://alpha.ramco.com/gitlab/kevin/ramcotest.git
+  654  ls
+  655  cd ramcotest/
+  656  clear
+  657  ls
+  658  ls -la
+  659  git log
+  660  clear
+  661  touch raj1.txt;git add .;git commit -m"add raj1"
+  662  git config user.name "Ramu"
+  663  git config user.email "ramu@ramu.com"
+  664  touch raj1.txt;git add .;git commit -m"add raj1"
+  665  git push origin master
+  666  history
+
+
+ 501  cd /e
+  502  cd ramco/
+  503  ls
+  504  cd repo1/
+  505  clear
+  506  ls
+  507  git pull origin master
+  508  git remote add origin http://alpha.ramco.com/gitlab/kevin/ramcotest.git
+  509  git pull origin master
+  510  ls
+  511  history
 
 
 How to see diff between 2commit or last modification?
