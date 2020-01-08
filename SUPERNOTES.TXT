@@ -511,8 +511,56 @@ SECOND GUY
   524  touch secondguy1.txt;git add .;git commit -m"ading secondguy 1"
   525  git push origin master
   526  history
+=======================================================================
+How to merge?
+===========================================
+Merge TYPES
+        1. FAST FORWARd Merge
+        2. RECURRSIVE Merge AKS 3 WAY MERGE
+        3. CHERRY PICK
 
 
+ 618  mkdir branch1
+  619  clear
+  620  cd branch1/
+  621  clear
+  622  git init
+  623  touch master1.txt;git add .;git commit -m"adding master1
+"
+  624  clear
+  625  git config user.name "Rajesh Kumar"
+  626  git config user.email "devops@rajeshkumar.xyz"
+  627  clear
+  628  touch master1.txt;git add .;git commit -m"adding master1
+"
+  629  touch master2.txt;git add .;git commit -m"adding master2
+"
+  630  clear
+  631  ls
+  632  touch master3.txt;git add .;git commit -m"adding master3
+"
+  633  clear
+  634  clear
+  635  ls
+  636  git log --oneline
+  637  git switch -c fea1
+  638  clear
+  639  ls
+  640  touch fea1.txt;git add .;git commit -m"adding fea1.txt"
+  641  touch fea2.txt;git add .;git commit -m"adding fea2.txt"
+  642  clear
+  643  ls
+  644  touch fea3.txt;git add .;git commit -m"adding fea3.txt"
+  645  clear
+  646  ls
+  647  git merge master
+  648  git checkout master
+  649  clear
+  650  ls
+  651  git merge fea1
+  652  ls
+  653  git log --oneline
+  654  history
 
 
 
