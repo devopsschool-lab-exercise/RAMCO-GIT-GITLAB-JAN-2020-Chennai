@@ -625,20 +625,112 @@ Merge TYPES
   711  ls
   712  git log --oneline
   713  history
+=============================================================
+How to resolve conflict?
+-----------------------
+SAME FILE - SAME LINE
+
+DEV1                            DEV2
+file1.java                      file1.java
+20                              20
+function(name,age)              function(name)
+
+INDIA IS MY COUNTRY
+I LOVE INDIA
+I LOVE STUDY
+
+INDIA IS MY COUNTRY
+I LOVE INDIA1
+I LOVE STUDY
+ 714  clear
+  715  ls
+  716  vi master1.txt
+  717  git add .
+  718  git commit -m"adding india"
+  719  clear
+  720  git checkout fea1
+  721  ls
+  722  vi master1.txt
+  723  git add .
+  724  clear
+  725  git commit -m"Adding India1"
+  726  git checkout master
+  727  clear
+  728  git log --oneline
+  729  clear
+  730  git merge fea1
+  731  git status
+  732  clear
+  733  ls
+  734  vi master1.txt
+  735  git status
+  736  git add .
+  737  git commit -m"resolved conflcit"
+  738  clear
+  739  git status
+  740  git merge fea1
+  741  history
+
+================================================
+How to see diff between 2 commit?
+How to see diff between 2 branch?
+How to see diff between working and staging?
+How to see diff between working and repo?
+
+  742  clear
+  743  git log --oneline
+  744  git diff f69af61 6abc2a7
+  745  clear
+  746  git branch
+  747  git diff fea1
+  748  clear
+  749  ls
+
+git diff - Compare working area to index.
+git diff --staged - Compare stage are to repository.
+git diff HEAD - Compare working area to repository
 
 
-How to see diff between 2commit or last modification?
-How to delete a file/dir?
-How to remove from STAGING?
-Branching and merging
+UNDOING in GIT
+======================
+How to clean your file from working dir?
+$ git clean -f -d
+
+How to move a file from STAGING to WORKING?
+git reset filename
+
+How to revert @repo
+ 788  git status
+  789  touch good.txt;git add .;git commit -m"adding good code"
+  790  clear
+  791  git status
+  792  git log --oneline
+  793  touch bad.txt;git add .;git commit -m"adding bad code"
+  794  clear
+  795  git ls
+  796  clear
+  797  git status
+  798  ls
+  799  clear
+  800  git log --oneline
+  801  clear
+  802  git log --oneline
+  803  git diff 8a38f34 81c389e
+  804  git log --oneline
+  805  git revert 8a38f34
+  806  git log --oneline
+  807  git diff 9d9a3e5 81c389e
+  808  git diff 9d9a3e5 8a38f34
+  809  ls
+
+
+
+
 Tagging
-How to change a file name?
 How to ignore files to get commited?
 Baselne
-How a resolve code conflict?
-How to modify a file ?
-How to revert back
-Can we create repo for a team?
-Working with Remote repo
+
+
+
 
 
