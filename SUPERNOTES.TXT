@@ -561,7 +561,70 @@ Merge TYPES
   652  ls
   653  git log --oneline
   654  history
+================================
+ 654  history
+  655  clear
+  656  ls
+  657  touch master4.txt;git add .;git commit -m"adding master4"
+  658  touch master5.txt;git add .;git commit -m"adding master5"
+  659  git checkout fea1
+  660  clear
+  661  ls
+  662  touch fea4.txt;git add .;git commit -m"adding fea4"
+  663  touch fea5.txt;git add .;git commit -m"adding fea5"
+  664  clear
+  665  git checkout master
+  666  ls
+  667  touch master6.txt;git add .;git commit -m"adding master6"
+  668  clear
+  669  git checkout fea1
+  670  ls
+  671  touch fea6.txt;git add .;git commit -m"adding fea6"
+  672  clear
+  673  git checkout master
+  674  git log --oneline
+  675  git checkout fea1
+  676  git log --oneline
+  677  clear
+  678  git checkout master
+  679  clear
+  680  git merge fea1
+  681  ls
+  682  clear
+  683  git log --oneline
+  684  history
+===================================================
 
+ 684  history
+  685  clear
+  686  ls
+  687  clear
+  688  ls
+  689  clear
+  690  clear
+  691  git checkout fea1
+  692  clear
+  693  ls
+  694  touch cherry1.txt;git add .;git commit -m"adding cherry1"
+  695  touch cherry2.txt;git add .;git commit -m"adding cherry2"
+  696  touch cherry3.txt;git add .;git commit -m"adding cherry3"
+  697  clear
+  698  touch cherry4.txt;git add .;git commit -m"adding cherry4"
+  699  clear
+  700  git log --oneline
+  701  ls
+  702  clear
+  703  git checkout master
+  704  clear
+  705  git checkout fea1
+  706  git log --oneline
+  707  git checkout master
+  708  clear
+  709* l
+  710  git cherry-pick 0c5e1f1
+  711  ls
+  712  git log --oneline
+  713  history
 
 
 How to see diff between 2commit or last modification?
