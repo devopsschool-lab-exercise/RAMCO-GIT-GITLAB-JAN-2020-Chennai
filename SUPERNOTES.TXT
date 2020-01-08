@@ -722,12 +722,22 @@ How to revert @repo
   807  git diff 9d9a3e5 81c389e
   808  git diff 9d9a3e5 8a38f34
   809  ls
+===================================================
 
-https://global.gotomeeting.com/join/244943637
+- Create a Repo in Gitlab.com/Github.com
+- Clone a repo using SourceTree
+- Create a 5 directory and each has 1 files and commit into repo.
+- Push the new commits to remote repo.
+- Now, Create a branch called Dev and QA. Dev branch, commit 10 files and QA branch, commit 5 files.
+- See a difference between DEV and QA and Master branch.
+- Compare multiple commits.
+- Now, Merge DEV and QA into Master branch.
+- Now, Push a master into remote repo.
+- Now, Push a DEV branch into remote repo. 
 
 
-DOT NET 4.8
-https://dotnet.microsoft.com/download/dotnet-framework/net48
+
+
 
 Tagging
 How to ignore files to get commited?
