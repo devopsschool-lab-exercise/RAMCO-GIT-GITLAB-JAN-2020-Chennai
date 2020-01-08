@@ -341,6 +341,179 @@ How to come back?
   509  git pull origin master
   510  ls
   511  history
+=====================================
+GIT BRANCHING AND merging
+=====================================
+What is Branching?
+
+
+Why do we need it?
+        - DO NOT DISTURB ME
+                FEATURE
+                BUG
+                team
+                Personal
+                Geographically
+https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/branching-strategies-with-tfvc?view=azure-devops
+https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops
+
+What is Strategies we follow?
+
+How to work with Git Branch?
+===========================================
+Type of Git Branch?
+        Local Branch    READ & WRITE
+        Remote Branch   READ Only
+        Tempo Branch    READ & WRITE
+
+ 501  cd /e
+  502  clear
+  503  cd ramco/
+  504  clear
+  505  ls
+  506  mkdir repo2
+  507  cd repo2/
+  508  clear
+  509  start .
+  510  git init
+  511  git branch
+  512  git config user.name "Rajesh kUmar"
+  513  git config user.email "devops@rajeshkumar.xyz"
+  514  touch file1.txt;git add .;git commit -m"adding"
+  515  git log
+  516  clear
+  517  git branch
+  518  git branch -r
+  519  touch file2.txt;git add .;git commit -m"adding 2"
+  520  git log --oneline
+  521  ls
+  522  git checkout 1869474
+  523  ls
+  524  touch file3.txt;git add .;git commit -m"adding 3"
+  525  git switch -c temp
+  526  git branch
+  527  ls
+  528  git checkout master
+  529  ls
+  530  git branch
+  531  git checkout temp
+  532  ls
+  533  clear
+  534  git branch
+  535  git checkout master
+
+
+  535  git checkout master
+  536  clear
+  537  history
+  538  clear
+  539  ls
+  540  ls
+  541  git branch fea1
+  542  git branch
+  543  git checkout fea1
+  544  clear
+  545  ls
+  546  git branch
+  547  git checkout temp
+  548  ls
+  549  git checkout fea1
+  550  clear
+  551  ls
+  552  touch fea1.txt;git add .;git commit -m"fea1"
+  553  ls
+  554  git checkout master
+  555  ls
+  556  git checkout temp
+  557  clear
+  558  ls
+  559  git branch temp2
+  560  git branch
+  561  ls
+  562  clear
+  563  cd ..
+  564  ls
+  565  mkdir repo3
+  566  cd repo3/
+  567  clear
+  568  ls
+  569  git init --bare
+  570  ls
+  571  clear
+  572  ls
+  573  cd ..
+  574  ls
+  575  cd repo2/
+  576  clear
+  577  git checkout master
+  578  clear
+  579  git branch -a
+  580  git log
+  581  clear
+  582  git remote add origin http://alpha.ramco.com/gitlab/kevin/day2.git
+  583  git push origin master
+  584  clear
+  585  ls
+  586  git pull origin master
+  587  clear
+  588  ls
+  589  clear
+  590  ls
+  591  ls
+  592  git branch -r
+  593  git branch -a
+  594  clear
+  595  ls
+  596  git fetch origin master
+  597  elar
+  598  clear
+  599  ls
+  600  git branch -a
+  601  git checkout remotes/origin/master
+  602  clear
+  603  ls
+  604  ls
+  605  git checkout master
+  606  ls
+  604  ls
+  605  git checkout master
+  606  ls
+  607  clear
+  608  git branch -a
+  609  git merge remotes/origin/master
+  610  ls
+
+SECOND GUY
+
+ 501  cd /e
+  502  cd ramco/
+  503  ls
+  504  mkdir secondguy
+  505  cd secondguy/
+  506  clear
+  507  ls
+  508  git clone http://alpha.ramco.com/gitlab/kevin/day2.git
+  509  clear
+  510  ls
+  511  rm -rf day2/
+  512  clear
+  513  ls
+  514  git clone http://alpha.ramco.com/gitlab/kevin/day2.git .
+  515  clear
+  516  ls
+  517  ls -la
+  518  clear
+  519  ls
+  520  git config user.name "Rajesh kumar"
+  521  git config user.email "devops@rajeshkumar.xyz"
+  522  touch secondguy.txt;git add .;git commit -m"ading secondguy"
+  523  git push origin master
+  524  touch secondguy1.txt;git add .;git commit -m"ading secondguy 1"
+  525  git push origin master
+  526  history
+
+
+
 
 
 How to see diff between 2commit or last modification?
@@ -353,14 +526,8 @@ How to ignore files to get commited?
 Baselne
 How a resolve code conflict?
 How to modify a file ?
-
 How to revert back
-
-
-
 Can we create repo for a team?
-
-
 Working with Remote repo
 
 
