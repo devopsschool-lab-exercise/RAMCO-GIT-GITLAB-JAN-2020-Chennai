@@ -1,1 +1,2 @@
-is it possible to add a directory more than one sub-directory to staging area in one shot.
+is it possible to add a directory more than one sub-directory to staging area in one shot?
+How to find the parent of a current branch?
