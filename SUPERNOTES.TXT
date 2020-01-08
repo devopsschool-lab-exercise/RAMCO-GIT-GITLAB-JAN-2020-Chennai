@@ -726,6 +726,9 @@ How to revert @repo
 https://global.gotomeeting.com/join/244943637
 
 
+DOT NET 4.8
+https://dotnet.microsoft.com/download/dotnet-framework/net48
+
 Tagging
 How to ignore files to get commited?
 Baselne
