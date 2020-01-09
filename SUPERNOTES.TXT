@@ -844,7 +844,12 @@ Working with gitignore
 
 
 Working with Git Hooks
+Location - /e/ramco/repo1/.git/hooks
+File name - pre-commit
+
   Integration with Jira
+
+
 Git integrationa and use with VS 
 Enabling CI/CD from GitLab
 
