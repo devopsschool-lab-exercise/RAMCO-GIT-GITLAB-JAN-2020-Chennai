@@ -852,6 +852,48 @@ File name - pre-commit
 
 Git integrationa and use with VS 
 Enabling CI/CD from GitLab
+===============================================
+Pipeline Plan
+
+BUIld  --> Deploy --> TESTING
+------------------------------------
+Maven  --> Ansible ---> Selenium
+
+Pre -  .gitlab-ci.yml
+
+stages:
+    - build
+    - deploy
+    - test
+
+build:
+    stage: build
+    script:
+        - echo "Building"
+        - mkdir build
+        - touch build/info.txt
+    artifacts:
+        paths:
+            - build/
+
+deploy:
+    stage: deploy
+    script:
+        - echo "Building"
+        - mkdir deploy
+        - touch deploy/deploy.txt
+
+test:
+    stage: test
+    script:
+        - echo "Testing"
+        - test -f "build/info.txt"
+
+
+
+
+
+
 
 
 Code Scanning - SQL Enlite
@@ -860,7 +902,7 @@ Code Scanning - SQL Enlite
 
 
 
-
+How to migrate from VSS/TFS to Git?
 
 
 
