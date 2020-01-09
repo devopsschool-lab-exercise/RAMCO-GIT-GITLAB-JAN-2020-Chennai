@@ -734,14 +734,126 @@ How to revert @repo
 - Now, Merge DEV and QA into Master branch.
 - Now, Push a master into remote repo.
 - Now, Push a DEV branch into remote repo. 
+==========================================================
+Working with Stashing
+===============
+ 506  cd repo1
+  507  clear
+  508  git status
+  509  ls
+  510  vi file11.txt
+  511  vi file2.txt
+  512  clear
+  513  ls
+  514  git status
+  515  git add file11.txt
+  516  clear
+  517  git status
+  518  clear
+  519  ls
+  520  git status
+  521  clear
+  522  ls
+  523  pwd
+  524  git status
+  525  clear
+  526  git help stash
+  527  git stash list
+  528  git status
+  529  clear
+  530  git stash
+  531  git status
+  532  git stash list
+  533  ls
+  534  vi raj1.txt
+  535  git stash list
+  536  git status
+  537  git stash For2ndtime
+  538  git stash -m For2ndtime
+  539  git stash -m "For2ndtime"
+  540  git stash save for2ndtimed
+  541  clear
+  542  git stash list
+  543  git status
+  544  git stash apply stash@{1}
+  545  clear
+  546  git status
+  547  git stash list
+  548  git stash drop stash@{1}
+  549  git stash list
+  550  history
+
+Working with Tagging
+===================================
+ 558  git log --oneline
+  559  git tag --list
+  560  git tag --list
+  561  git tag release11
+  562  git tag --list
+  563  git show release11
+  564  clear
+  565  ls
+  566  git tag --list
+  567  git log --oneline
+  568  git help tag
+  569  git tag -a release10 6933402 -m "For demo"
+  570  git tag --list
+  571  git show release10
+  572  git tag --list
+  573  git checkout release10
+  574  git checkout .
+  575  git checkout master
+  576  clear
+  581  git config --list
+  582  !
+  583  git tag --list
+  584  git push origin release10
+
+
+
+Working with gitignore
+ 593  mkdir build
+  594  touch build/file1
+  595  touch build/file2
+  596  touch build/file3
+  597  clear
+  598  git status
+  599  clear
+  600  touch lib1
+  601  touch lib2
+  602  clear
+  603  git status
+  604  ls
+  605  touch file12.txt
+  606  clear
+  607  git status
+  608  vi .gitignore
+  609  ls
+  610  ls -la
+  611  git status
+  612  vi .gitignore
+  613  clear
+  614  git status
+  615  git add .
+  616  git status
+  617  ls
+  618  git commit -m"add"
+  619  git log
+  620  git show dfd969910d6e98ea0380355e0bf72524b45ae734
+  621  history
+
+
+Working with Git Hooks
+  Integration with Jira
+Git integrationa and use with VS 
+Enabling CI/CD from GitLab
+
+
+Code Scanning - SQL Enlite
 
 
 
 
-
-Tagging
-How to ignore files to get commited?
-Baselne
 
 
 
