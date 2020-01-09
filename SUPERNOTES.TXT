@@ -889,6 +889,17 @@ test:
         - echo "Testing"
         - test -f "build/info.txt"
 
+VSS to GIT
+=================================
+Migrate with history - 
+https://www.abstrakti.com/Products/Castellum/UserManual
+https://accu.org/index.php/journals/1828
+https://github.com/git-tfs/git-tfs
+
+
+
+
+Without History - 
 
 
 
@@ -899,10 +910,65 @@ test:
 Code Scanning - SQL Enlite
 
 
+Step 1 - Generate PUB and PVT Key
+        ssh-keygen
+Step 2 - Add pub key into Gitlab
+Step 3 - Use SSH
+
 
 
 
 How to migrate from VSS/TFS to Git?
+
+TUTORIALS
+https://www.devopsschool.com/tutorial/git/
+
+BLOG
+https://www.devopsschool.com/blog/?s=git
+
+videos
+https://www.youtube.com/channel/UCrXr49kBvXJeQMMl2693c4g
+https://www.devopsschool.com/videos
+
+Notes
+Github
+
+PDF
+https://www.devopsschool.com/pdf/git/
+
+Slides
+https://www.devopsschool.com/slides/git
+
+Certificates
+http://devopscertification.co/certificates/git-certified-engineer/index.html
+
+
+FAQ
+http://devopsschool.com/tutorial/git/git-faq.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
